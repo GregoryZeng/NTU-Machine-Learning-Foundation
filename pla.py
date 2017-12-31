@@ -190,7 +190,7 @@ for j in range(2000):
     indlst = list(range(m))
     shuffle(indlst)
     count = 0
-    while ifUpdated and  count < 50:
+    while ifUpdated and  count < 100:
         ifUpdated = False
         for i in range(m):
             if sgndot(w,X[indlst[i]])!=Y[indlst[i]]:
